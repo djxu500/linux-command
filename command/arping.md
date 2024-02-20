@@ -46,4 +46,15 @@ Sent 8 probes (1 broadcast(s))
 Received 8 response(s)
 ```
 
+###实例
+```shell
+[root@docker ~]# arping 192.168.245.102 -I ens32 -c 4
+ARPING 192.168.245.102 from 192.168.245.125 ens32
+Unicast reply from 192.168.245.102 [00:0C:29:8F:41:9C]  0.789ms
+Unicast reply from 192.168.245.102 [00:0C:29:8F:41:9C]  0.883ms
+Unicast reply from 192.168.245.102 [00:0C:29:8F:41:9C]  0.705ms
+Unicast reply from 192.168.245.102 [00:0C:29:8F:41:9C]  0.983ms
+Sent 4 probes (1 broadcast(s))
+```
+
 
